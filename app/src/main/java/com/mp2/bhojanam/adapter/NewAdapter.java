@@ -27,7 +27,7 @@ public class NewAdapter extends RecyclerView.Adapter<NewAdapter.NewViewHolder>{
     Context context;
     private ArrayList<String> data;
     private OnAcademyVideoClick onAcademyVideoClick;
-    public static final String DEVELOPER_KEY = "AIzaSyBw6ndLwZ2dGREZP32jHlbBYaTr2V2k7iY";
+    public static final String DEVELOPER_KEY = "ENTER YOUR KEY HERE";
 
     public NewAdapter(Context context, OnAcademyVideoClick onAcademyVideoClick, ArrayList<String> data){
         this.context = context;
