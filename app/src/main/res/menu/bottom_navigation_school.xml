@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:icon="@drawable/nav_profile_selector"
+            android:title="Profile"
+            android:id="@+id/nav_profile"/>
+
+        <item
+            android:id="@+id/nav_register"
+            android:title="Register Student"
+            android:icon="@drawable/nav_register_selector"/>
+
+        <item
+            android:id="@+id/nav_mealtime"
+            android:title="Meal Time"
+            android:icon="@drawable/nav_mealtime_selector"/>
+
+    </group>
+
+</menu>

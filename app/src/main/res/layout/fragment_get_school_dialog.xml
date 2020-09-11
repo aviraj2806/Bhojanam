@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    tools:context=".dialog.GetSchoolDialog">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <TextView
+           android:id="@+id/txtSSBack"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:drawableLeft="@drawable/ic_back"
+           android:fontFamily="@font/seguisb"
+           android:text="Select School"
+           android:textColor="@color/colorAccent"
+           android:textSize="18sp"
+           app:drawableTint="@color/colorAccent" />
+
+       <TextView
+           android:id="@+id/txtSSName"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:fontFamily="@font/seguisb"
+           android:gravity="center"
+           android:text="Hello Aviraj," />
+
+       <TextView
+           android:id="@+id/textView4"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:fontFamily="@font/seguisb"
+           android:gravity="center"
+           android:text="@string/hello_aviraj_nyou_are_only_one_step_away" />
+
+       <Spinner
+           android:id="@+id/spnSS"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="10dp"
+           android:layout_marginTop="10dp"
+           android:layout_marginEnd="10dp"
+           android:layout_marginBottom="10dp"
+           android:background="@drawable/shape_auth_input"
+           android:popupBackground="@drawable/shape_auth_dropdown" />
+
+       <ImageView
+           android:id="@+id/imgSS"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginTop="10dp"
+           android:layout_marginBottom="10dp"
+           android:background="@drawable/shape_auth_pdark"
+           android:paddingStart="40dp"
+           android:paddingTop="5dp"
+           android:paddingEnd="40dp"
+           android:paddingBottom="5dp"
+           android:src="@drawable/ic_next_white" />
+
+   </LinearLayout>
+
+</RelativeLayout>

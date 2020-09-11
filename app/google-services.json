@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "759948739608",
+    "firebase_url": "https://bhojanam.firebaseio.com",
+    "project_id": "bhojanam",
+    "storage_bucket": "bhojanam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759948739608:android:e4d1270e6e30650c3fef6d",
+        "android_client_info": {
+          "package_name": "com.mp2.bhojanam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759948739608-eqd139jv1ur1l26b6cspt3ljuqc70067.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw6ndLwZ2dGREZP32jHlbBYaTr2V2k7iY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759948739608-eqd139jv1ur1l26b6cspt3ljuqc70067.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

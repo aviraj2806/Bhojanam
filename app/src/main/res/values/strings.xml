@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Bhojanam</string>
+    <string name="there_are_people_in_the_world_so_hungry_that_god_cannot_appear_to_them_except_in_the_form_of_bread">There are people in the world so hungry,that God cannot appear to them except in the form of bread.\n-Mahatma Gandhi</string>
+    <string name="pref">Bhojanam Pref File</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_aviraj_nyou_are_only_one_step_away">You are only <font color="#dc4e41">one</font> step away.</string>
+    <string name="what_s_new">What\'s New</string>
+    <string name="student_successfully_registered">Student <font color="#dc4e41">successfully</font> registered.</string>
+
+    <string-array name="type">
+        <item>Select User Type</item>
+        <item>Area In-charge</item>
+        <item>School In-charge</item>
+    </string-array>
+
+    <string-array name="school">
+        <item>Select School</item>
+        <item>Barnes School</item>
+        <item>Vishwashanti Gurukul</item>
+        <item>Bishops School</item>
+        <item>Sacred Heart School</item>
+    </string-array>
+
+</resources>

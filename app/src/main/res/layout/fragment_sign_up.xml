@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".fragment.SignUpFragment">
+
+    <LinearLayout
+        android:id="@+id/llSignUpDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Spinner
+            android:id="@+id/spnSuType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_auth_input"
+            android:popupBackground="@drawable/shape_auth_dropdown" />
+
+        <EditText
+            android:id="@+id/etSuName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_auth_input"
+            android:ems="10"
+            android:fontFamily="@font/seguisb"
+            android:hint="Enter Name"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="#212121"
+            android:textColorHint="#9e9e9e"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etSuMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_auth_input"
+            android:ems="10"
+            android:fontFamily="@font/seguisb"
+            android:hint="Mobile No. (10 digits)"
+            android:inputType="number"
+            android:maxLength="10"
+            android:padding="10dp"
+            android:textColor="#212121"
+            android:textColorHint="#9e9e9e"
+            android:textSize="14sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:hintEnabled="false"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/etSuPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_auth_input"
+                android:ems="10"
+                android:fontFamily="@font/seguisb"
+                android:hint="Password (Min. 6 characters)"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColor="#212121"
+                android:textColorHint="#9e9e9e"
+                android:textSize="14sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:hintEnabled="false"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/etSuCPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_auth_input"
+                android:ems="10"
+                android:fontFamily="@font/seguisb"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColor="#212121"
+                android:textColorHint="#9e9e9e"
+                android:textSize="14sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgSU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape_auth_pdark"
+        android:paddingStart="40dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="40dp"
+        android:paddingBottom="5dp"
+        android:src="@drawable/ic_next_white" />
+
+</LinearLayout>
