@@ -23,6 +23,7 @@ public class AreaActivity extends AppCompatActivity {
         bottomNavigationView = findViewById(R.id.myNavigationArea);
         bottomNavigationView.setItemIconTintList(null);
 
+
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
